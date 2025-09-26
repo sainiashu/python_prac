@@ -1,7 +1,7 @@
 
 
 
-i =1
+i =7
 while(i<=6):
     print(' i is smaller')
     i = i +1
