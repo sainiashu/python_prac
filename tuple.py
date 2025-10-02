@@ -1,11 +1,11 @@
 #Tuples are immutable in nature and, therefore, cannot be changed once created.
 
 #IN CONDITION
-tuples = (98,12,45,23,76,79,34)
-print(23 in tuples)
-print(tuples.count(12))
-print(tuples.index(79))
-print(len(tuples))
+# tuples = (98,12,45,23,76,79,34)
+# print(23 in tuples)
+# print(tuples.count(12))
+# print(tuples.index(79))
+# print(len(tuples))
 
 
 

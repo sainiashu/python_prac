@@ -10,12 +10,13 @@
 #
 # print(hotel_records_5)
 
-# my_dict ={
-#     'name': 'John',
-#     'Age': 30,
-#     'City': 'Toronto'
-# }
-#
+my_dict ={
+    'name': 'John',
+    'Age': 30,
+    'City': 'Toronto'
+}
+
+
 #
 #
 # #MERGING PYTHON DICTIONARIES WITH THE UPDATE METHODs

@@ -12,6 +12,7 @@
 # print(are_anagram('silent','tester'))
 
 
+
 # Reverse Array
 # def reverseArray(arr):
 #     return  arr[::-1]
@@ -32,6 +33,8 @@
 
 
 
+
+
 # First Non-Repeating Character
 # def first_non_repeating(s):
 #     char_count = {}
@@ -46,7 +49,7 @@
 # print(first_non_repeating("tester"))
 
 
-# # Reverse a String
+# Reverse a String
 # def reverse_String(s):
 #     reverse_str =  ""
 #     for char in s:
@@ -54,3 +57,6 @@
 #     return reverse_str
 #
 # print(reverse_String("tester"))
+
+
+

@@ -3,9 +3,9 @@
 
 
 #NESTED "FOR" LOOPS IN PYTHON
-for i in range(1,5):
-    for j in range(1,5):
-        print("i :" , str(i) + "  j: "+ str(j))
+# for i in range(1,5):
+#     for j in range(1,5):
+#         print("i :" , str(i) + "  j: "+ str(j))
 
 
 
@@ -29,5 +29,7 @@ for i in range(1,5):
 
 
 # days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+#
 # for d in days:
 #     print(d)
+

@@ -33,8 +33,9 @@
 
 # # Negative step (reverse)
 # nums = [10, 20, 30, 40, 50]
-# print(nums[::-1]) # Reverse list → [50, 40, 30, 20, 10]
-
+# # print(nums[::-1]) # Reverse list → [50, 40, 30, 20, 10]
+#
+# print(nums[::-1])
 
 # Negative indices
 # nums = [10, 20, 30, 40, 50]
@@ -46,6 +47,15 @@
 # print(nums[:2])
 # print(nums[2:])
 
+
+# Using step
+nums = "method"
+print(nums[:3])
+print(nums[2:])
+
+
+
+
 # Omitting start or end
 # nums = [10, 20, 30, 40, 50]
 # print(nums[:3])   # From beginning to index 2 → [10, 20, 30]
@@ -55,7 +65,7 @@
 
 
 
-# HOW TO SLICE A LIST IN PYTHON:- A python list can be sliced with the ":" symbol
+# # HOW TO SLICE A LIST IN PYTHON:- A python list can be sliced with the ":" symbol
 # names = ["Jack", "Jill", "Harvey", "Bill", "Joseph", "Agatha"]
 # print(names[1:5])
 
@@ -71,6 +81,7 @@
 # names = ["Jack", "Jill", "Harvey", "Mike"]
 # for i in range(0,len(names)):
 #     print(names[i])
+
 
 
 #HOW TO FIND AN ELEMENT IN PYTHON LISTS : in and not in

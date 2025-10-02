@@ -13,6 +13,7 @@
 
 
 
+
 #
 # # Condition statements
 # age = 36
@@ -64,7 +65,7 @@
 #     else:
 #         print(i)
 
-#
+# #
 # fruits = ["apple", "banana", "cherry", "date"]
 # for i in fruits:
 #     if (i == 'cherry'):
@@ -87,6 +88,9 @@
 #         break
 #     else:
 #         print(i)
+
+
+
 
 
 #-- IF ELIF ELSE CONDITIONS
@@ -146,3 +150,4 @@
 #     print("True")
 # else:
 #     print("False")
+

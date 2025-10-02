@@ -1,9 +1,9 @@
 
 
 
-print('+' + 10 * '-' + '+' )
-print(('|' + 10 * ' ' + '|\n')*5, end='')
-print('+' + 10 * '-' + '+' )
+# print('+' + 10 * '-' + '+' )
+# print(('|' + 10 * ' ' + '|\n')*5, end='')
+# print('+' + 10 * '-' + '+' )
 
 
 # number = 3
@@ -49,9 +49,9 @@ print('+' + 10 * '-' + '+' )
 from itertools import count
 
 # shortcut operators
-# count = 0
-# count += 1
-# print(count)
+count = 0
+count += 1
+print(count)
 
 # shortcut operators
 # int_value = 100
