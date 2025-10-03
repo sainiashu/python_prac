@@ -17,13 +17,14 @@
 #             result = result + str[i]
 #     return result
 #
-#
+
 #
 # if __name__ == '__main__':
 #     print(string_bits('chocolate'))
 
 
-# Given a string and a non-negative int n, we'll say that the front of the string is the first 3 chars, or whatever is there if the string is less than length 3. Return n copies of the front;
+# Given a string and a non-negative int n, we'll say that the front of the string is the first 3 chars, or whatever is there
+# if the string is less than length 3. Return n copies of the front;
 #
 #
 # front_times('Chocolate', 2) → 'ChoCho'
@@ -65,13 +66,15 @@
 #   if len(str) >0:
 #     return str *n
 #
-#
+
+
 # if __name__ == '__main__':
 #     print(string_times('Java',4))
 
 
 
-# Given a string, we'll say that the front is the first 3 chars of the string. If the string length is less than 3, the front is whatever is there. Return a new string which is 3 copies of the front.
+# Given a string, we'll say that the front is the first 3 chars of the string. If the string length is less than 3,
+# the front is whatever is there. Return a new string which is 3 copies of the front.
 
 # front3('Java') → 'JavJavJav'
 # front3('Chocolate') → 'ChoChoCho'
@@ -84,8 +87,11 @@
 #         front_end = len(str)
 #     front = str[:front_end]
 #     return front + front + front
-#
-#
+
+
+
+# #
+# #
 # if __name__ == '__main__':
 #     print(front3('Java'))
 
@@ -102,7 +108,8 @@
 #     mid = str[1:len(str)-1]
 #
 #     return str[len(str)-1] + mid + str[0]
-#
+
+
 # if __name__== '__main__':
 #     print(front_back('method'))
 
@@ -119,7 +126,8 @@
 
 
 # ==========================================
-# Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged.
+# Given a string, return a new string where "not " has been added to the front.
+# However, if the string already begins with "not", return the string unchanged.
 
 # not_string('candy') → 'not candy'
 # not_string('x') → 'not x'
@@ -131,9 +139,10 @@
 #     else:
 #         return  'not ' + str
 #
-#
+
+
 # if __name__ == '__main__':
-#     print(not_string('not test'))
+#     print(not_string('test'))
 # ==========================================
 # Given an int n, return True if it is within 10 of 100 or 200. Note: abs(num) computes the absolute value of a number.
 #
@@ -150,7 +159,7 @@
 
 
 # ==========================================
-# Given 2 ints, a and b, return True if one if them is 10 or if their sum is 10.
+# Given 2 ints, a and b, return True if one of them is 10 or if their sum is 10.
 # makes10(9, 10) → True
 # makes10(9, 9) → False
 # makes10(1, 9) → True
@@ -160,7 +169,8 @@
 #         return  True
 #     else:
 #         return False
-#
+
+
 # if __name__=='__main__':
 #     print(makes10(6,4))
 
@@ -196,7 +206,7 @@
 #         num = (n-21) * 2
 #     return num
 #
-#
+
 # if __name__ == '__main__':
 #     print(diff(24))
 
@@ -214,11 +224,13 @@
 #         sum = sum * 2
 #     return sum
 #
+
 # if __name__== '__main__':
 #     print(sum_double(2,2))
 
 # ==========================================
-# We have two monkeys, a and b, and the parameters a_smile and b_smile indicate if each is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return True if we are in trouble.
+# We have two monkeys, a and b, and the parameters a_smile and b_smile indicate if each is smiling.
+# We are in trouble if they are both smiling or if neither of them is smiling. Return True if we are in trouble.
 # monkey_trouble(True, True) → True
 # monkey_trouble(False, False) → True
 # monkey_trouble(True, False) → False
@@ -233,8 +245,13 @@
 # if __name__== '__main__':
 #     print(monkey_trouble(True, True))
 
+
+
+
+
 # ==========================================
-# The parameter weekday is True if it is a weekday, and the parameter vacation is True if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.
+# The parameter weekday is True if it is a weekday, and the parameter vacation is True if we are on vacation.
+# We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.
 #  sleep_in(False, False) → True
 # sleep_in(True, False) → False
 # sleep_in(False, True) → True

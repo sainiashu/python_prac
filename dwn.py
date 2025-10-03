@@ -1,21 +1,20 @@
 from selenium import webdriver
+from selenium.webdriver.chromium.options import ChromiumOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-import time
-import os
 
-# Set custom download directory
+import os
+import time
+
+from dowload import prefs
+
 download_dir = "D:\\Pycharm\\"
 
 chrome_options = Options()
-prefs = {"download.default_directory": download_dir}
+prefs = {"download.default_directory": prefs}
 chrome_options.add_experimental_option("prefs", prefs)
 
-# Start browser with download preferences
 driver = webdriver.Chrome(options=chrome_options)
-
-
-# Open your web application
 driver.get("https://www.lambdatest.com/selenium-playground/download-file-demo")
 
 # Locate and click the download button/link
@@ -25,9 +24,7 @@ download_button.click()
 # Wait for file to download
 time.sleep(5)
 
-# Check if file is downloaded
 files = os.listdir(download_dir)
-# files = os.listdir(download_dir_1)
-print("Downloaded files:", files)
+print("file", files)
 
 driver.quit()

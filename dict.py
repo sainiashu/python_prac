@@ -6,8 +6,8 @@
 #                    104 : {"Name": "Jack", "ID" : "Birth Certificate"},
 #                    803 : {"Name": "John", "ID" : "Employee Card"}
 #                    }
-#
-#
+# #
+# #
 # print(hotel_records_5)
 
 my_dict ={
@@ -17,7 +17,7 @@ my_dict ={
 }
 
 
-#
+
 #
 # #MERGING PYTHON DICTIONARIES WITH THE UPDATE METHODs
 #
@@ -52,7 +52,8 @@ my_dict ={
 # print(my_dict['name'])
 # my_dict['job'] ='QA'
 # print(my_dict)
-#
+# #
+
 
 # update
 # my_dict['Age'] = 50
@@ -62,4 +63,3 @@ my_dict ={
 # # Delete or remove
 # my_dict.pop('job')
 # print(my_dict)
-

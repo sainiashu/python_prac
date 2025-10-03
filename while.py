@@ -10,11 +10,11 @@
 
 
 #
-# i = 1 #True Condition
+i = 1 #True Condition
 # while (i<=5):
 #     print('Good Morning')
-#     # i = i + 1
-#     i +=1
+#     i = i + 1
+    # i +=1
 # #
 # i = 10 #False Condition
 # while(i <= 5):

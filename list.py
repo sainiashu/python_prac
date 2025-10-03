@@ -24,7 +24,7 @@
 # words = ["hello", "python", "world"]
 # upppercased = [w.upper() for w in words]
 # print(upppercased)
-
+# print("test".upper())
 
 
 
@@ -36,6 +36,7 @@
 # # print(nums[::-1]) # Reverse list → [50, 40, 30, 20, 10]
 #
 # print(nums[::-1])
+
 
 # Negative indices
 # nums = [10, 20, 30, 40, 50]
@@ -49,20 +50,17 @@
 
 
 # Using step
-nums = "method"
-print(nums[:3])
-print(nums[2:])
+# nums = "method"
+# print(nums[:3])
+# print(nums[2:])
 
 
 
 
 # Omitting start or end
-# nums = [10, 20, 30, 40, 50]
+nums = [10, 20, 30, 40, 50]
 # print(nums[:3])   # From beginning to index 2 → [10, 20, 30]
 # print(nums[2:])   # From index 2 to end → [30, 40, 50]
-
-
-
 
 
 # # HOW TO SLICE A LIST IN PYTHON:- A python list can be sliced with the ":" symbol
@@ -77,7 +75,7 @@ print(nums[2:])
 
 
 
-# # Simple way with the use of for loop
+# # # Simple way with the use of for loop
 # names = ["Jack", "Jill", "Harvey", "Mike"]
 # for i in range(0,len(names)):
 #     print(names[i])
@@ -101,6 +99,8 @@ print(nums[2:])
 # print(name)
 # name.remove('mike')
 # print(name)
+
+
 
 # CAN WE USE A NEGATIVE INDEX IN PYTHON LISTS?---> YES
 

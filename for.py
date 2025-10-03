@@ -9,7 +9,6 @@
 
 
 
-
 # for j in range(15,20):
 #     print(j)
 
@@ -27,9 +26,12 @@
 # for i in range(1,10,5):
 #     print(i)
 
-
-# days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 #
-# for d in days:
-#     print(d)
-
+# days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+# #
+# # for d in days:
+# #     print(d)
+#
+#
+# for i in range(2,5):
+#     print(i)

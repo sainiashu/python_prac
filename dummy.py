@@ -13,6 +13,8 @@
 
 
 
+
+
 # Reverse Array
 # def reverseArray(arr):
 #     return  arr[::-1]
@@ -33,8 +35,6 @@
 
 
 
-
-
 # First Non-Repeating Character
 # def first_non_repeating(s):
 #     char_count = {}
@@ -49,6 +49,7 @@
 # print(first_non_repeating("tester"))
 
 
+
 # Reverse a String
 # def reverse_String(s):
 #     reverse_str =  ""
@@ -60,3 +61,9 @@
 
 
 
+# def reverse_String(s):
+#     revs = ""
+#     for i in range(len(s)-1,-1,-1):
+#         revs += s[i]
+#     return  revs
+# print(reverse_String("hello"))
